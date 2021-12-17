@@ -1,6 +1,6 @@
 function Projects (){
     return <div>
-        My Projects!
+         <button>My Projects!</button> 
     </div>
 }
 export default Projects
