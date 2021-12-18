@@ -1,6 +1,8 @@
 function Home (){
     return <div>
-        <button> My Home!</button> 
+        <h1> My Home!</h1> 
+     console.log('Tahmina Choudhury');
+     
     </div>
 }
 export default Home
