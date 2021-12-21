@@ -4,7 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import {Routes, Link} from 'react-router-dom'
+import {Route, Link} from 'react-router-dom'
 
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
     <div className="App">
      <main>
        <switch>
-       <Routes path= "/Home" component ={Home}exact />
-       <Routes path= "/About" component ={About}/>
-       <Routes path= "/Contact" component ={Contact}/>
-       <Routes path= "/Projects" component ={Projects}/>
+       <Route path= "/Home" component ={Home}exact />
+       <Route path= "/About" component ={About}/>
+       <Route path= "/Contact" component ={Contact}/>
+       <Route path= "/Projects" component ={Projects}/>
        </switch>
      </main>
        
