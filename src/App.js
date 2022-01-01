@@ -9,18 +9,35 @@ import {Route, Link} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-     <main>
-       <switch>
-       <Route path= "/Home" component ={Home}exact />
+    <div>
+      <Nav>
+        <ul>
+          <li>
+          <Link to='/'>Home</Link>
+          </li>
+          <li>
+          <Link to='/About'>About</Link>
+          </li>
+          <li>
+          <Link to='/projects'>About</Link>
+          </li>
+          <li>
+          <Link to='/Contact'>About</Link>
+          </li>
+          </ul>
+        </Nav> 
+    
+     <Routes>
+       
+       <Route path= " /" component ={Home}exact />
        <Route path= "/About" component ={About}/>
        <Route path= "/Contact" component ={Contact}/>
        <Route path= "/Projects" component ={Projects}/>
-       </switch>
-     </main>
+       
+     </Routes>
        
     </div>
-  );
+  )
 }
 
 export default App;

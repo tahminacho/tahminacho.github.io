@@ -1,7 +1,7 @@
 function Contact (){
     return <div>
        
-     <h1>Contacts!</h1>
+     <h2>Contacts!</h2>
     
     <ul>Email: Tahmina.choudhury@lc.cuny.edu</ul>
     <ul>Phone: XXX-XXX-XXXX</ul>
